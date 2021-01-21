@@ -1,0 +1,368 @@
+.navibar {
+    background-color: #f2f1ef;
+    position: fixed;
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px;
+    border-color: #95A5A6;
+    border-style: solid;
+    box-shadow: 0px 1px 15px 1px black;
+    z-index: 9999!important;
+  }
+  
+  #navibrand {
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-bottom: 16px;
+    font-family: Corbel, Ariel;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #22313f;
+    width: 300px;
+  }
+  
+  #navibrand a {
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+    color: #22313f;
+  }
+  
+  #navibrand a:hover {
+    color: #6C7A89;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  #navibrand a:link {
+    text-decoration: none;
+    ;
+  }
+  
+  #navibutton {
+    text-transform: uppercase;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    vertical-align: center;
+    padding-right: 150px;
+    padding-top: 26px;
+    padding-left: 40px;
+    margin: 0;
+    font-family: Corbel, Ariel;
+    color: #22313f;
+    font-size: 17px;
+  }
+  
+  #navibutton li {
+    display: inline;
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  
+  #navibutton li a {
+    color: #22313f;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+  }
+  
+  #navibutton li a:hover {
+    color: #6C7A89;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  #navibutton li a:link {
+    text-decoration: none;
+  }
+  
+  .right {
+    float: right;
+    vertical-align: center;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  #home {
+    background-image: url(http://www.taketours.com/images/destination/new%20york%20skyline%20night.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 850px;
+    background-size: 1350px 843px;
+    background-attachment: fixed;
+    background-position: 50% 8%;
+  }
+  
+  .welcome {
+    font-size: 160px;
+    color: white;
+    font-family: Century Gothic, Ariel;
+    font-weight: bold;
+    padding-top: 230px;
+  }
+  
+  .about {
+    color: #22313f;
+    font-size: 50px;
+    font-family: Century Gothic, Ariel;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .features {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  
+  #aboutfeatures ul {
+    padding-left: 0;
+  }
+  
+  #aboutfeatures ul li {
+    display: inline;
+    padding-left: 30px;
+  }
+  
+  #aboutfeatures img {
+    transform: scale(1, 1);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  #aboutfeatures img:hover {
+    transform: scale(1.05, 1.05);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  #helloguest {
+    display: none;
+  }
+  
+  #skills ul {
+    padding: 0;
+    text-align: center;
+  }
+  
+  #skills ul li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  
+  #skills span {
+    vertical-align: middle;
+  }
+  
+  #skills a {
+    transform: scale(1, 1);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  #skills a:hover {
+    text-decoration: none;
+    transform: scale(1.1, 1.1);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  #skills a:link {
+    text-decoration: none;
+  }
+  
+  #html {
+    background-color: #1ba39c;
+    color: white;
+    font-size: 38px;
+    font-family: Century Gothic, Ariel;
+  }
+  
+  #css {
+    background-color: #4183d7;
+    color: white;
+    font-size: 42px;
+    font-family: Century Gothic, Ariel;
+  }
+  
+  #js {
+    background-color: #8e44ad;
+    color: white;
+    font-size: 28px;
+    font-family: Century Gothic, Ariel;
+  }
+  
+  #jq {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 34px;
+    font-family: Century Gothic, Ariel;
+  }
+  
+  #bs {
+    background-color: #f7ca18;
+    color: white;
+    font-size: 28px;
+    font-family: Century Gothic, Ariel;
+  }
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    line-height: 150px;
+  }
+  
+  .align {
+    display: inline-block;
+  }
+  
+  #porfolio {
+    width: 100%;
+    height: 400px;
+  }
+  
+  #leftporf {
+    background-color: #6C7A89;
+    display: inline-block;
+    height: inherit;
+    line-height: inherit;
+    float: left;
+    width: 50%;
+  }
+  
+  #rightporf {
+    background-color: #D2D7D3;
+    display: inline-block;
+    height: inherit;
+    line-height: inherit;
+    float: right;
+    width: 50%;
+  }
+  
+  #leftporf2 {
+    background-color: #95A5A6;
+    display: inline-block;
+    height: inherit;
+    line-height: inherit;
+    float: left;
+    width: 50%;
+  }
+  
+  #rightporf2 {
+    background-color: #DADFE1;
+    display: inline-block;
+    height: inherit;
+    line-height: inherit;
+    float: right;
+    width: 50%;
+  }
+  
+  .porfoliotitle {
+    font-size: 55px;
+    font-family: Century Gothic, Ariel;
+    color: white;
+    background-color: #663399;
+    font-weight: bold;
+    width: 250px;
+    display: inline-block;
+    margin-top: -40px;
+    margin-bottom: -50px;
+    border-style: solid;
+    border: 12 12 12 12;
+    border-color: #674172;
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+  }
+  
+  #porftitle:hover {
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+  }
+  
+  #socialmedia {
+    position: absolute;
+    position: fixed;
+  }
+  
+  #socialmedia ul {
+    list-style-type: none;
+    margin-top: 100px;
+  }
+  
+  #socialmedia li {
+    padding-top: 20px;
+    display: none;
+  }
+  
+  #socialmedia a {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F2F1EF;
+    display: inline-block;
+    box-shadow: 1px 1px 15px 0px #6C7A89;
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+  }
+  
+  #socialmedia a:hover {
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+  }
+  
+  #socialmedia i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+  .zeroheight{
+    height:0px;
+  }
